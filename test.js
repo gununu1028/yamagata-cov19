@@ -11,12 +11,11 @@ async function getHtml(page, url) {
     try {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
-
         const gettedBody = await getHtml(
             page,
             'http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html'
         );
-
+        browser.close();
         const sjisText = encoding.convert(gettedBody, {
             to: "SJIS",
             from: "UNICODE",
@@ -27,9 +26,7 @@ async function getHtml(page, url) {
             from: "SJIS",
             type: "string"
         });
-        save(utf8Test, "test.html");
-
-        browser.close();
+        save(utf8Test, "src/.vuepress/public/test.html");
     } catch (e) {
         console.error(e);
     }
