@@ -17,11 +17,10 @@ jobs:
         with:
           node-version: 10.x
       - name: Download
-        if: failure()
         run: |
           wget -P src/.vuepress/public/ -r -l 1 https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
       - name: Deploy
-        if: failure()
+        if: always()
         run: |
           yarn install
           yarn build
