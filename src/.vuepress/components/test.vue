@@ -17,15 +17,19 @@
         mounted() {
             axios({
                 method: 'GET',
-                url: '/test.html',
+                url: '/test.html'
             }).then((response) => {
-                this.test = response.data
+                const rare_data = response.data
+                let replaced_data = rare_data.replace(/href=\"\/ou\//g, 'href="/www.pref.yamagata.jp/ou/')
+                // replaced_data = replaced_data.replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
+                this.test = replaced_data
             })
         }
     }
 </script>
 
 <style>
+    /* 調整用 */
     .invisible, #header, .pankuzu {
         display: none;
     }
