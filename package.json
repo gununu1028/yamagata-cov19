@@ -3,8 +3,8 @@
     "vuepress": "^1.4.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "dependencies": {
     "encoding-japanese": "^1.0.30",
