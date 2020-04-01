@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: 10.x
       - uses: chrislennon/action-aws-cli@v1.1
+      - run: wget -P src/.vuepress/public/ -r -l 1 http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
       - run: yarn install
       - run: yarn build
       - run: aws s3 sync dest/ s3://yamagata-cov19.m5a.jp --delete
