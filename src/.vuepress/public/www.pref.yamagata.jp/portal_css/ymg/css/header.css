@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------
+_header
+-----------------------------------*/
+#header {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: 100%;
+}
+
+#he_left {
+	float: left;
+	margin: 0 -100px 0 0;
+	padding: 0;
+	width: 100px;
+	height: 75px;
+	z-index: 4;
+	position: relative;
+	background-color: #fff;
+}
+#he_left h1,
+#he_left p {
+	background:url("/img/logo_name.gif") no-repeat left center;
+	height: 65px;
+	width: 95px;
+	padding: 0;
+	margin: 5px 0 0 5px;
+	float:left;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#he_left p a {
+	display: block;
+	height: 65px;
+	width: 95px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#he_right {
+	margin: 0 -100px 0 0;
+	padding: 0;
+	float: left;
+	text-align: right;
+	height: auto;
+	width: 100%;
+	background-color: #fff;
+}
+#he_right_a {
+	margin: 0 100px 0 100px;
+	padding: 0;
+        height: 75px;
+        background:url("/img/head_img.jpg") no-repeat left ;
+}
+
+/* ヘッダナビ */
+.head_nav-1 {
+	margin: 0 5px 0 0;
+	padding: 10px 0 0 0;
+}
+.head_nav-1 ul {
+	margin: 0;
+	padding: 0;
+}
+.head_nav-1 li.gyou-1 {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.head_nav-1 li.gyou-2 {
+	display: inline;
+	margin: 0;
+	padding: 0 3px 0 0;
+	list-style-type: none;
+}
+.head_nav-1 li.gyou_end {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* ボタン間隔 */
+.button_box {
+	letter-spacing:-5px;
+	*letter-spacing:-6px;
+}
+
+/* さがす */
+.head_nav-2 {
+	float:right;
+	margin: 3px 0 0 0;
+	padding: 0;
+}
+.head_nav-2 ul {
+	margin: 0;
+	padding: 0;
+}
+.head_nav-2 li {
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	float:left;
+}
+
+/* 翻訳 */
+#head_nav-fore {
+	float:right;
+	font-size: 81%;
+	background-color: #fff;
+	margin: 7px 5px 0 5px;
+}
+
+/* Googleカスタム検索ここから */
+/* use */
+#top_search_keyword {
+    float: right;
+    margin: 7px 5px 0 5px;
+    padding: 0;
+}
+#cse-search-box {
+	margin: 0;
+	padding: 0;
+}
+/* 検索ボタン */
+#submit {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+*html body #submit{
+	margin: 0 0 -4px 0;
+}
+/*IE7のみ*/
+*:first-child+html #submit{
+	margin: 0 0 -3px 0;
+	padding: 0;
+}
+/* 検索BOX */
+#tmp_query {
+    height: 14px;
+    margin: 0;
+    vertical-align: middle;
+    width: 120px;
+}
+*html body #tmp_query{
+	margin:-1px 0 0 0;
+	height: 21px;
+}
+/* Googleカスタム検索ここまで */
+
+
+/* バナー */
+#head-bnr {
+	float: right;
+	margin: 0;
+        position: relative; top:11px; right:3px;
+}

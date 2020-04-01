@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="Imagetoolbar" content="no" /> 
+<meta name="robots" content="index,follow" />
+<meta name="author" content="山形県医療機関情報ネットワーク" />
+<meta name="Description" content="山形県医療機関情報ネットワークは、山形県内の病院、診療所、助産所、薬局を検索できます。" />
+<meta name="Keywords" content="山形県,山形,医療,山形県医療機関ネットワーク,山形　医療,山形　病院,山形　救急,薬局,病院,助産所,診療所,山形県医療,庄内　病院,置賜　病院,最上　病院" />
+<meta name="copyright" content="山形県医療機関情報ネットワーク" />
+<title>
+山形県医療機関情報ネットワーク</title>
+<link rel="stylesheet" href="css/fix/import.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/fontsize/text_default.css" type="text/css" media="all" />
+<link rel="alternate stylesheet" href="css/fontsize/text_large.css" type="text/css" title="textLarge" media="all" />
+<link rel="stylesheet" href="css/top.css" type="text/css" media="all" />
+
+<link href="css/class.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="css/vkeybord.css" rel="stylesheet" type="text/css" />
+
+<script src="js/styleswitcher.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/wordBreak.js"></script>
+
+<script src="js/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/scriptaculous.js" type="text/javascript"></script>
+<script src="js/effects.js" type="text/javascript"></script>
+<script src="js/keypad.js" type="text/javascript"></script>
+<script type="text/javascript">
+function thisMovie(movieName) {
+    if (navigator.appName.indexOf("Microsoft") != -1) {return window[movieName];}else {return document[movieName];}
+}
+function reading(ac){thisMovie("fromJavaScript").actionCommand(ac);}
+function execute(targetURL,targetParameters,targetElement) {
+	//reading("true");   
+     var a = new Ajax.Request(targetURL,   
+         {  "method": 'post',   
+             "parameters": targetParameters,
+						 "asynchronous":true, 
+             onSuccess: function(request) {},   
+             onComplete: function(request) { 
+                 $(targetElement).innerHTML = request.responseText;
+								 var aaa = $(targetElement).innerHTML;
+								 aaa.evalScripts(); 
+				//reading("false");  
+             },   
+             onFailure: function(request) {   
+                 alert('読み込みに失敗しました');   
+             },   
+             onException: function (request) {   
+                 alert('読み込み中にエラーが発生しました');   
+             }   
+         }   
+     );   
+ }
+function onLoad(){
+	//Element.hide($("apDiv"));
+	//ver = get_flash_version();
+	//vers = ver.split(".");
+	//if(vers[0] - 0 < 9){
+	//	alert("Adobe Flash Player9　以上がインストールされている必要があります。");
+	//	$('head_Title').innerHTML = "Adobe Flash Player 最新バージョンダウンロードは <a href='http://www.adobe.com/go/getflashplayer_jp'>こちら</a> ";
+	//}
+}
+function onmouseOver(me){
+	Element.setStyle($(me), {'background':'#8ACF99','cursor':'pointer','font-weight':'bold'});
+}
+function onmouseOut(me){
+	Element.setStyle($(me), {'background':'none','cursor':'default','font-weight':'normal'});
+}
+
+</script>
+</head>
+<!--<body class="body_M"  id="body" onload="onLoad();"> -->
+<body>
+<div id="top-line"></div>
+<div id="wrapper">
+
+<div id="header" class="clearfix">
+<div id="Logo">
+  <h1><a href="http://www.pref.yamagata.jp/medical-net/"><img src="./images/logo.gif" alt="山形県医療機関情報ネットワーク" width="488" height="34" /></a></h1>
+</div>
+
+
+
+
+<div id="fontsizeChange" class="clearfix">
+<div id="FontSize"><img src="./images/fontsize_img.gif" alt="文字サイズ" width="70" height="23" /></div>
+<ul class="textresizer">
+<li id="font_s"><a href="#" onclick="setActiveStyleSheet('textDefault'); return false;" title="文字サイズを「小」に変更"><span>小</span></a></li>
+<li id="font_l"><a href="#" onclick="setActiveStyleSheet('textLarge'); return false;" title="文字サイズを「大」に変更"><span>大</span></a></li>
+</ul>
+</div>
+
+
+<!-- /header -->
+</div>
+
+
+<div id="containerTop">&nbsp;</div>
+<div id="containerMid">
+
+<div id="contents">
+
+
+
+
+<div id="contentsL390">
+
+<div id="info">
+<h3 id="info_h3">お知らせ</h3>
+<dl>
+</dl>
+</div>
+<!-- /info -->
+
+
+
+
+<div id="qr_code">
+<img src="images/qr_img.gif" width="336" height="53" alt="携帯電話でご利用の場合は、左記QRコードを読み取りご利用ください。" />
+</div>
+<!-- /qr_code -->
+
+<div id="login_admin">
+<a href="admin/"><img src="images/btn_admin.gif" width="130" height="35" alt="管理者ログイン" /></a>
+</div>
+<!-- /login_admin -->
+
+</div>
+<!-- /contentsL390 -->
+
+<div id="contentsR390">
+
+<div class="btn-waku clearfix">
+<a href="med/index.php"><img src="images/btn_med.jpg" width="390" height="80" alt="医療機関を検索" /></a>
+</div>
+
+<div class="btn-Column2 MgTop10 clearfix">
+<div class="Column2Left11"><a href="spec/index.php?spec=1"><img src="images/btn_child.jpg" width="190" height="80" alt="子どもの病気やケガ" /></a></div>
+<div class="Column2Right11"><a href="spec/index.php?spec=2"><img src="images/btn_women.jpg" width="190" height="80" alt="妊婦出産、女性特有の診療・相談" /></a></div>
+</div>
+
+<div class="btn-Column2 MgTop10 clearfix">
+<div class="Column2Left11"><a href="med/index.php?spec=1"><img src="images/btn_night.jpg" width="190" height="80" alt="休日夜間診療所一覧" /></a></div>
+<div class="Column2Right11"><a href="spec/index.php?spec=3"><img src="images/btn_psy.jpg" width="190" height="80" alt="精神科を探す" /></a></div>
+</div>
+
+<div class="btn-Column2 MgTop10 clearfix">
+<div class="Column2Left11"><a href="spec/index.php?spec=4"><img src="images/btn_freeword.jpg" width="190" height="80" alt="フリーワード検索" /></a></div>
+<div class="Column2Right11"><a href="eng/index.php"><img src="images/btn_english.jpg" width="190" height="80" alt="English Search" /></a></div>
+</div>
+
+
+<div class="MgTop10 clearfix">
+<a href="http://www.pref.yamagata.jp/medical-net/byousyouhoukoku30/" target="_blank"><img src="images/btn_byousyouhoukoku30.jpg" width="390" height="40" alt="平成30年度病床機能報告" /></a>
+</div>
+
+
+
+<div class="btn-Column2a MgTop20 clearfix">
+<div class="Column2Left11a"><a href="http://www.pref.yamagata.jp/kenfuku/iryo/kyukyu/609001399tel.html" target="_blank"><img src="images/bn_emergency.jpg" width="190" height="83" alt="休日夜間診療所一覧" /></a></div>
+<div class="Column2Right11a"><a href="http://www.pref.yamagata.jp/ou/kenkofukushi/090004/seishinka-kyukyu.html" target="_blank"><img src="images/bn_psy_emergency.jpg" width="174" height="66" alt="精神科救急電話相談" /></a></div>
+</div>
+
+<hr>
+<div class="btn-waku MgTop20 clearfix">
+<a href="ds/index.php"><img src="images/btn_ds.jpg" width="390" height="80" alt="薬局を検索" /></a>
+</div>
+
+</div>
+<!-- /contentsR390 -->
+
+
+
+
+</div>
+<!-- /contents -->
+
+
+
+<!--/contentsMid--></div>
+<div id="containerBot"></div>
+
+
+
+<div id="footer-all" class="clearfix">
+<div id="footerL"><img src="images/f_note.png" width="106" height="39" alt="ご利用の前に必ずご覧下さい。" /></div>
+
+<div id="footerR">
+
+<ul id="f_navi" class="clearfix">
+<li><a href="./privacy.php">情報の取扱と目的</a></li>
+<li><a href="./word_iryou.php">用語集（医療機関）</a></li>
+<li><a href="./word_drug.php">用語集（薬局）</a></li>
+<li><a href="./environment.php">操作方法等</a></li>
+<li><a href="./link.php">リンク</a></li>
+<li><a href="./index.php">トップページ</a></li>
+</ul>
+</div>
+<!-- /footer-all --></div>
+
+<div id="copyright">
+<p>Copyright &copy; Yamagata Prefecture Government All Rights Reserved.</p>
+<!-- /copyright --></div>
+
+<!-- /wrapper --></div>
+
+<script language="javascript">keyWrite();</script>
+</body>
+</html>

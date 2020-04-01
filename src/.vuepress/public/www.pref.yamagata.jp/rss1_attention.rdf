@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+
+<channel rdf:about="http://www.pref.yamagata.jp">
+  <title>山形県ホームページ</title>
+  <link>http://www.pref.yamagata.jp</link>
+  <description></description>
+  <items>
+    <rdf:Seq>
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kendoseibi/180035/administration/opeshien.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kendoseibi/180001/koho/tohoku-chuodo.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kanko/020075/soubun/yamaginkenmin.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/4sha.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020071/shokuhin/101/recall-of-foods.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/akubiR2.3.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/kuma_yamagata_top.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/byoin/550001/ykenbyosaiyo0511.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/saikenR2.2.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020004/r2yosan/r2tousyoyosan.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kanko/020075/soubun/furusato.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020002/shitsugyo/shitsugyo.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/tyuhanR2.1.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR112.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR111.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/wave.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kendoseibi/180035/administration/doro_kansui.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR0110.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/ledkousokutsuusin.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/viagogo.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuiR0109.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020004/yosan/reiwa1-09hosei.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/nihontuushin.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kigyo/500020/kinkyurenraku/kinkyurenrakutuika.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020003/kinenkanren/kinenkanren.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020026/ayumi/2019ayumi/01ayumi07.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050014/asbestos2.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090001/20130425/fushin-tsuikatekitaisaku.html"/>
+    
+    </rdf:Seq>
+  </items>
+</channel>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html">
+  <title>新型コロナウイルス感染症に関連するポータルサイト</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html</link>
+  <description></description>
+  <dc:date>2020-04-01T20:06:38+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kendoseibi/180035/administration/opeshien.html">
+  <title>令和２年度山形県除雪オペレーター担い手確保支援事業のご案内</title>
+  <link>http://www.pref.yamagata.jp/ou/kendoseibi/180035/administration/opeshien.html</link>
+  <description></description>
+  <dc:date>2020-04-01T15:56:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kendoseibi/180001/koho/tohoku-chuodo.html">
+  <title>東北中央自動車道の開通状況＋旬な観光・イベント情報</title>
+  <link>http://www.pref.yamagata.jp/ou/kendoseibi/180001/koho/tohoku-chuodo.html</link>
+  <description></description>
+  <dc:date>2020-03-30T10:09:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kanko/020075/soubun/yamaginkenmin.html">
+  <title>山形県総合文化芸術館（やまぎん県民ホール）開館事業の延期について</title>
+  <link>http://www.pref.yamagata.jp/ou/kanko/020075/soubun/yamaginkenmin.html</link>
+  <description></description>
+  <dc:date>2020-03-27T21:56:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html">
+  <title>県職員の採用</title>
+  <link>http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html</link>
+  <description></description>
+  <dc:date>2020-03-24T11:38:54+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/4sha.html">
+  <title>最初に1万円程度の情報商材を消費者に購入させ、その後に執ような電話勧誘により著しく高額な情報商材を購入させる事業者4社に関する注意喚起が消費者庁から出されました</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/4sha.html</link>
+  <description></description>
+  <dc:date>2020-03-23T18:07:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/020071/shokuhin/101/recall-of-foods.html">
+  <title>食品等の回収について</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/020071/shokuhin/101/recall-of-foods.html</link>
+  <description></description>
+  <dc:date>2020-03-27T11:21:07+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/akubiR2.3.html">
+  <title>あくびコミュニケーションズに関する注意喚起</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/akubiR2.3.html</link>
+  <description></description>
+  <dc:date>2020-03-13T15:59:03+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/kuma_yamagata_top.html">
+  <title>クマに関する情報</title>
+  <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/kuma_yamagata_top.html</link>
+  <description></description>
+  <dc:date>2020-03-12T09:36:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/byoin/550001/ykenbyosaiyo0511.html">
+  <title>令和元年度山形県職員選考試験（薬剤師・臨床工学技士（追加募集））について</title>
+  <link>http://www.pref.yamagata.jp/ou/byoin/550001/ykenbyosaiyo0511.html</link>
+  <description></description>
+  <dc:date>2020-03-05T08:27:56+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/saikenR2.2.html">
+  <title>債権回収業者をかたるハガキに注意！</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/saikenR2.2.html</link>
+  <description></description>
+  <dc:date>2020-02-19T11:16:55+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020004/r2yosan/r2tousyoyosan.html">
+  <title>令和２年度当初予算等について</title>
+  <link>http://www.pref.yamagata.jp/ou/somu/020004/r2yosan/r2tousyoyosan.html</link>
+  <description></description>
+  <dc:date>2020-02-13T13:01:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kanko/020075/soubun/furusato.html">
+  <title>ふるさと納税「山形県総合文化芸術館整備事業」について</title>
+  <link>http://www.pref.yamagata.jp/ou/kanko/020075/soubun/furusato.html</link>
+  <description></description>
+  <dc:date>2020-02-06T08:38:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020002/shitsugyo/shitsugyo.html">
+  <title>失業者の退職手当を受給された方へ（失業者の退職手当の追加給付が生じる可能性があります）</title>
+  <link>http://www.pref.yamagata.jp/ou/somu/020002/shitsugyo/shitsugyo.html</link>
+  <description></description>
+  <dc:date>2020-01-31T16:33:31+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/tyuhanR2.1.html">
+  <title>大手通販会社をかたるハガキに注意！</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/tyuhanR2.1.html</link>
+  <description></description>
+  <dc:date>2020-01-20T08:45:41+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR112.html">
+  <title>法務省を名乗るハガキに注意！</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR112.html</link>
+  <description></description>
+  <dc:date>2019-12-13T16:50:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR111.html">
+  <title>携帯電話等の解約トラブルが急増中！</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR111.html</link>
+  <description></description>
+  <dc:date>2019-11-13T11:57:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/wave.html">
+  <title>「超簡単『スマホで錬金術』」、「検索＝報酬を実現した画期的なシステム」などとうたい、多額の金銭を支払わせる事業者に関する注意喚起が消費者庁から出されました</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/wave.html</link>
+  <description></description>
+  <dc:date>2019-11-13T11:26:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kendoseibi/180035/administration/doro_kansui.html">
+  <title>道路冠水危険個所にご注意！</title>
+  <link>http://www.pref.yamagata.jp/ou/kendoseibi/180035/administration/doro_kansui.html</link>
+  <description></description>
+  <dc:date>2019-10-31T14:27:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR0110.html">
+  <title>アナログ⇔光回線への電話・訪問による勧誘に注意しましょう！</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuuiR0110.html</link>
+  <description></description>
+  <dc:date>2019-10-15T11:55:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/ledkousokutsuusin.html">
+  <title>特許権を取得した通信機器で収益を得られるなどとうたい、高額の投資をさせる事業者に関する注意喚起が消費者庁から出されました</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/ledkousokutsuusin.html</link>
+  <description></description>
+  <dc:date>2019-10-04T14:52:10+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/viagogo.html">
+  <title>チケット転売の仲介サイト「viagogo」に関する注意喚起が消費者庁から出されました</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/viagogo.html</link>
+  <description></description>
+  <dc:date>2019-09-18T08:33:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuiR0109.html">
+  <title>SNS広告の「お試し価格」に注意</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/consumer-alert/chuiR0109.html</link>
+  <description></description>
+  <dc:date>2019-09-11T15:16:38+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020004/yosan/reiwa1-09hosei.html">
+  <title>令和元年度９月補正予算について</title>
+  <link>http://www.pref.yamagata.jp/ou/somu/020004/yosan/reiwa1-09hosei.html</link>
+  <description></description>
+  <dc:date>2019-09-09T13:33:27+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/nihontuushin.html">
+  <title>ＳＭＳを用いて未納料金の名目で金銭を支払わせようとする「日本通信株式会社をかたる架空請求」に関する注意喚起が消費者庁から出されました</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/nihontuushin.html</link>
+  <description></description>
+  <dc:date>2019-08-05T10:42:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kigyo/500020/kinkyurenraku/kinkyurenrakutuika.html">
+  <title>『おいしい山形の水』（ペットボトル水）の自主回収（追加）に関するお知らせ（2019.07.08）</title>
+  <link>http://www.pref.yamagata.jp/ou/kigyo/500020/kinkyurenraku/kinkyurenrakutuika.html</link>
+  <description></description>
+  <dc:date>2019-07-08T19:48:19+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020003/kinenkanren/kinenkanren.html">
+  <title>県の行政機関の敷地内禁煙について（お知らせ）</title>
+  <link>http://www.pref.yamagata.jp/ou/somu/020003/kinenkanren/kinenkanren.html</link>
+  <description></description>
+  <dc:date>2019-07-02T19:34:13+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020026/ayumi/2019ayumi/01ayumi07.html">
+  <title>県広報誌「県民のあゆみ」令和元年7月号</title>
+  <link>http://www.pref.yamagata.jp/ou/somu/020026/ayumi/2019ayumi/01ayumi07.html</link>
+  <description></description>
+  <dc:date>2019-07-09T21:46:29+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050014/asbestos2.html">
+  <title>石綿（アスベスト）に関する情報</title>
+  <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050014/asbestos2.html</link>
+  <description></description>
+  <dc:date>2019-06-24T20:48:19+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/090001/20130425/fushin-tsuikatekitaisaku.html">
+  <title>風しん追加的対策に係る抗体検査・予防接種について</title>
+  <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090001/20130425/fushin-tsuikatekitaisaku.html</link>
+  <description></description>
+  <dc:date>2019-06-12T20:00:05+09:00</dc:date>
+</item>
+
+
+</rdf:RDF>

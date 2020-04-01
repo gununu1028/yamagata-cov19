@@ -1,0 +1,42 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title>山形県公共事業入札情報</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift-JIS">
+<script type="text/javascript">
+var retserver;
+</script>
+<script type="text/javascript" src="https://ppi.cals.pref.yamagata.jp/PPI/return.js"></script>
+<script type="text/javascript">
+
+function check() {
+	//ポータルサイトのURL
+	var mainURL = 'https://ppi.cals.pref.yamagata.jp/PPI/public_portal.html';
+	//ポータルサイトとは別のURL(仮)
+	var dummyURL = 'http://www.pref.yamagata.jp/sr/dbkk/public_portal_mirror.html';
+
+	if( retserver ) {
+		location.href = mainURL 
+	} else {
+		location.href = dummyURL 
+	}
+}
+</script>
+</head>
+<body onload="setTimeout(check(),3000);">
+<div align="center">
+<div style="margin-top:50px;font-size:14px;padding:10px;width:500px;border:1px solid darkgray;background-color:MidnightBlue;color:white;font-weight:bold;">
+山形県公共事業入札情報サイトへ移動します。
+</div>
+<div style="margin-top:0px;font-size:12px;padding:10px;width:500px;border:1px solid darkgray;">
+<p><br>
+自動で移動しない場合は、<b><a href="https://ppi.cals.pref.yamagata.jp/PPI/public_portal.html">こちら</a></b>をクリックして下さい。
+</p>
+<p align="left">
+※リンクをクリックしてもページが表示されない場合は、メンテナンス等によりサービスを停止している場合があります。
+</p>
+</div>
+</div>
+</body>
+</html>

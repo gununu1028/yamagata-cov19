@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------
+_基本ベース
+-----------------------------------*/ 
+body{
+	font-size: 100%;	
+	color: #2b2b2b;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	background-color: #fff;
+	line-height: 1.4;
+	max-width: 1366px; /* 可変ブラウザの最大 */
+	min-width: 767px; /* 可変ブラウザの最小 */
+	border: 0; /* 旧IE対応 */
+	background:url("/img/back_img.jpg") left top repeat-x ;
+}
+a:link {
+	color: #0033cc;
+	text-decoration: underline;
+}
+a:visited {
+	color: #663366;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ff3300;
+	text-decoration: none;
+}
+a:active {
+	color: #0033cc;
+	text-decoration: none;
+}
+
+/*---------------------------------
+_汎用スタイル
+-----------------------------------*/
+h1, h2, h3, h4 ,h5 ,h6{
+	padding: 0px;
+	margin: 0px;
+/*	font-weight: normal;*/
+}
+img {
+	border-width: 0px;
+	border-style: none;
+	vertical-align: top;
+	line-height: 100%;
+}
+a img {
+	border: none;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+/*
+ul,ol  {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	padding: 0px;
+	margin: 0px;
+}
+*/
+dl,dt,dd {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	margin: 0px;
+	padding: 0px;
+}
+/*
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+        border: 1px solid #ccc;
+        margin: 0 0 0 10px;
+}
+*/
+/*---------------------------------
+_レイアウト
+-----------------------------------*/ 
+#container {
+        background-color: #fff;
+	width: 100%;
+	border-top: 5px solid #cde1f1;
+        clear: both;
+        display: inline-block;
+
+}
+
+/*---------------------------------
+_隠す
+-----------------------------------*/
+.invisible {
+	position: absolute;
+	left: -100em;
+	top: -100em;
+}
+.hide {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/*---------------------------------
+_clearfix
+-----------------------------------*/
+.clear {
+	clear: both;
+}
+.clearfix {
+	display: inline-block;
+}
+
+/*---------------------------------
+_text
+-----------------------------------*/ 
+.sm {
+	font-size: 87%;
+}
+.fontclass1 {
+   font-size: 80%;
+}
+.fontclass2 {
+   font-size: 90%;
+}
+.fontclass3 {
+   font-size: 100%;
+}
+.fontclass4 {
+   font-size: 120%;
+}
+.fontclass5 {
+   font-size: 160%;
+}
+.fontclass6 {
+   font-size: 200%;
+}
+.fontclass7 {
+   font-size: 250%;
+}
+
+/*---------------------------------
+_テーブル共通
+-----------------------------------*/
+/*
+table tr th {
+	font-weight: normal;
+	padding: .3em;
+        border: 1px solid #ccc;
+        text-align: center;
+        background-color: #eee;
+}
+table tr td {
+	padding: .3em;
+        border: 1px solid #ccc;
+        text-align: left;
+}
+*/
+/*---------------------------------
+_PDF
+-----------------------------------*/
+
+
+/*---------------------------------
+_プラグイン
+-----------------------------------*/
+
+
+/*---------------------------------
+_page-top
+-----------------------------------*/
+
+
+/*---------------------------------
+_レイアウト
+-----------------------------------*/
+.mt00{margin-top:0!important;}
+.mt05{margin-top:5px!important;}
+.mt10{margin-top:10px!important;}
+.mt15{margin-top:15px!important;}
+.mt20{margin-top:20px!important;}
+.mt30{margin-top:30px!important;}
+.mt40{margin-top:40px!important;}
+
+.mr00{margin-right:0!important;}
+.mr05{margin-right:5px!important;}
+.mr10{margin-right:10px!important;}
+.mr15{margin-right:15px!important;}
+.mr20{margin-right:20px!important;}
+.mr30{margin-right:30px!important;}
+.mr40{margin-right:40px!important;}
+
+.mb00{margin-bottom:0!important;}
+.mb05{margin-bottom:5px!important;}
+.mb10{margin-bottom:10px!important;}
+.mb15{margin-bottom:15px!important;}
+.mb20{margin-bottom:20px!important;}
+.mb30{margin-bottom:30px!important;}
+.mb40{margin-bottom:40px!important;}
+
+.ml00{margin-left:0!important;}
+.ml05{margin-left:5px!important;}
+.ml10{margin-left:10px!important;}
+.ml15{margin-left:15px!important;}
+.ml20{margin-left:20px!important;}
+.ml30{margin-left:30px!important;}
+.ml40{margin-left:40px!important;}
+
+.pt00{padding-top:0!important;}
+.pt05{padding-top:5px!important;}
+.pt10{padding-top:10px!important;}
+.pt15{padding-top:15px!important;}
+.pt20{padding-top:20px!important;}
+.pt30{padding-top:30px!important;}
+.pt40{padding-top:40px!important;}
+
+.pr00{padding-right:0!important;}
+.pr05{padding-right:5px!important;}
+.pr10{padding-right:10px!important;}
+.pr15{padding-right:15px!important;}
+.pr20{padding-right:20px!important;}
+.pr30{padding-right:30px!important;}
+.pr40{padding-right:40px!important;}
+
+.pb00{padding-bottom:0!important;}
+.pb05{padding-bottom:5px!important;}
+.pb10{padding-bottom:10px!important;}
+.pb15{padding-bottom:15px!important;}
+.pb20{padding-bottom:20px!important;}
+.pb30{padding-bottom:30px!important;}
+.pb40{padding-bottom:40px!important;}
+
+.pl00{padding-left:0!important;}
+.pl05{padding-left:5px!important;}
+.pl10{padding-left:10px!important;}
+.pl15{padding-left:15px!important;}
+.pl20{padding-left:20px!important;}
+.pl30{padding-left:30px!important;}
+.pl40{padding-left:40px!important;}
+
+.aleft{text-align:left!important;}
+.acenter{text-align:center!important;}
+.aright{text-align:right!important;}
+
+.vtop{vertical-align:top!important;}
+.vmiddle{vertical-align:middle!important;}
+.vbottom{vertical-align:bottom!important;}
+
+.left {float: left!important;}
+.right {float: right!important;}
