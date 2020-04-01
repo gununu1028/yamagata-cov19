@@ -5,5 +5,10 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "encoding-japanese": "^1.0.30",
+    "puppeteer": "^2.1.1",
+    "save-file": "^2.3.1"
   }
 }
