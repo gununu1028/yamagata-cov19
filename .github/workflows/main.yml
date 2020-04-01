@@ -1,17 +1,20 @@
 name: Upload to S3
 
-on: [push]
-
+on:
+  push:
+    branches:
+      - master
 jobs:
   deploy:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@master
       - name: Setup AWS
         uses: chrislennon/action-aws-cli@v1.1
       - name: Download
-        run: wget -P src/.vuepress/public/ -r -l 1 http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
+        run: |
+          wget -P src/.vuepress/public/ -r -l 1 https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
       - name: Setup node
         uses: actions/setup-node@master
         with:
