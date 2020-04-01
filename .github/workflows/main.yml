@@ -4,18 +4,23 @@ on: [push]
 
 jobs:
   deploy:
-    name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@master
-        with:
-          node-version: 10.x
-      - uses: chrislennon/action-aws-cli@v1.1
-      - run: wget -P src/.vuepress/public/ -r -l 1 http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
-      - run: yarn install
-      - run: yarn build
-      - run: aws s3 sync dest/ s3://yamagata-cov19.m5a.jp --delete
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      - name: Checkout
+          uses: actions/checkout@master
+      - name: Setup AWS
+          uses: chrislennon/action-aws-cli@v1.1
+      - name: Download
+          run: wget -P src/.vuepress/public/ -r -l 1 http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
+      - name:  Deploy
+          uses: actions/setup-node@master
+          with:
+            node-version: 10.x
+      - name: Deploy
+          run:|
+          yarn install
+          yarn build
+          aws s3 sync dest/ s3://yamagata-cov19.m5a.jp --delete
+          env:
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
