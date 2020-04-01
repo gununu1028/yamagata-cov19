@@ -14,7 +14,9 @@ jobs:
         uses: chrislennon/action-aws-cli@v1.1
       - name: Download
         run: |
-          wget -P src/.vuepress/public/ -r -l 1 https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html 2>/dev/null
+          sudo apt-get update
+          sudo apt-get upgrade
+          wget -P src/.vuepress/public/ -r -l 1 https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html
       - name: Setup node
         uses: actions/setup-node@master
         with:
