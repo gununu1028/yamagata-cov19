@@ -38,9 +38,11 @@
     a[name]
         color black
 
-    #parent-fieldname-text > div:nth-child(31) table,
-    #parent-fieldname-text > p:nth-child(43) + table
-        border 0
+
+    #parent-fieldname-text > div:nth-child(n+30):nth-child(-n+40) table,
+    #parent-fieldname-text > p:nth-child(n+40):nth-child(-n+50) + table,
+    border
+        0
 
         tr
             border-left 1px solid #dfe2e5
@@ -54,7 +56,7 @@
 
 
     // 「新型コロナ受診相談センター」の役割と連絡先
-    #parent-fieldname-text > div:nth-child(31) table
+    #parent-fieldname-text > div:nth-child(n+30):nth-child(-n+40) table
         th
             display none
 
@@ -82,7 +84,7 @@
                 content "電話（休日や時間外）："
 
     // 総合的な新型コロナ対策に関するご相談（県庁健康福祉企画課）
-    #parent-fieldname-text > p:nth-child(43) + table
+    #parent-fieldname-text > p:nth-child(n+40):nth-child(-n+50) + table
         th
             display none
 
