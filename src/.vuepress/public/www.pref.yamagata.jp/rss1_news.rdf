@@ -15,6 +15,15 @@
   <items>
     <rdf:Seq>
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kanko/110011/kikakuhan/publicfolder202003316608621856/kankokeikaku2.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/shugakushikin/shugaku_shikin.html"/>
     
     
@@ -31,9 +40,6 @@
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kenminundou/ecodrive_spring.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kanko/110011/kikakuhan/publicfolder202003316608621856/kankokeikaku2.html"/>
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020004/kessan/H30kessan.html"/>
@@ -81,16 +87,10 @@
       <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110013/keieisien/sogyo-ouen/copy_of_work_of_copy2_of_sougyo-ouen.html"/>
     
     
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html"/>
-    
-    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html"/>
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/tsunamisaigaikeikaikuiki_shitei.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html"/>
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/copy_of_tamago/kosodatekennminundo_r2_bosyu.html"/>
@@ -107,17 +107,35 @@
     </rdf:Seq>
   </items>
 </channel>
+<item rdf:about="http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html">
+  <title>やまがたの農山漁村づくり情報マガジン「農楽里（ｎｏｒａｒｉ）」</title>
+  <link>http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html</link>
+  <description></description>
+  <dc:date>2020-04-02T20:45:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html">
+  <title>学校臨時休業等に係る本県の対応について【新型コロナウイルス感染症対策関係】（令和2年4月2日更新）</title>
+  <link>http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html</link>
+  <description></description>
+  <dc:date>2020-04-02T20:53:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kanko/110011/kikakuhan/publicfolder202003316608621856/kankokeikaku2.html">
+  <title>山形県観光計画</title>
+  <link>http://www.pref.yamagata.jp/ou/kanko/110011/kikakuhan/publicfolder202003316608621856/kankokeikaku2.html</link>
+  <description></description>
+  <dc:date>2020-04-02T10:31:19+09:00</dc:date>
+</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/shugakushikin/shugaku_shikin.html">
   <title>令和2年度山形県医師修学資金 貸与制度のご案内について</title>
   <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/shugakushikin/shugaku_shikin.html</link>
   <description></description>
-  <dc:date>2020-04-01T19:38:15+09:00</dc:date>
+  <dc:date>2020-04-02T14:44:49+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/sogoshicho/shonai/337041/2020setsumei/2020setsumei.html">
   <title>「学生・UIJターン庄内就職説明会」企業PRシートを掲載しました！</title>
   <link>http://www.pref.yamagata.jp/ou/sogoshicho/shonai/337041/2020setsumei/2020setsumei.html</link>
   <description></description>
-  <dc:date>2020-04-01T15:31:54+09:00</dc:date>
+  <dc:date>2020-04-02T11:59:05+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110010/jibasanR2.html">
   <title>地場産業等振興事業費補助金に係る事業計画の募集について【受付期間：令和2年4月20日まで】</title>
@@ -142,12 +160,6 @@
   <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kenminundou/ecodrive_spring.html</link>
   <description></description>
   <dc:date>2020-03-30T08:41:05+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kanko/110011/kikakuhan/publicfolder202003316608621856/kankokeikaku2.html">
-  <title>山形県観光計画</title>
-  <link>http://www.pref.yamagata.jp/ou/kanko/110011/kikakuhan/publicfolder202003316608621856/kankokeikaku2.html</link>
-  <description></description>
-  <dc:date>2020-03-31T17:00:10+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/somu/020004/kessan/H30kessan.html">
   <title>平成30年度普通会計決算等について</title>
@@ -239,12 +251,6 @@
   <description></description>
   <dc:date>2020-03-26T15:13:16+09:00</dc:date>
 </item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html">
-  <title>【環境企画課】「令和２年度若者向けSDGs等環境学習会開催支援業務委託」に係る企画提案募集について</title>
-  <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html</link>
-  <description></description>
-  <dc:date>2020-03-26T09:00:20+09:00</dc:date>
-</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html">
   <title>山形県看護職員需給推計について</title>
   <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html</link>
@@ -256,12 +262,6 @@
   <link>http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/tsunamisaigaikeikaikuiki_shitei.html</link>
   <description></description>
   <dc:date>2020-03-18T16:13:41+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html">
-  <title>学校臨時休業等に係る本県の対応について【新型コロナウイルス感染症対策関係】（令和2年3月23日更新）</title>
-  <link>http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html</link>
-  <description></description>
-  <dc:date>2020-03-27T11:19:44+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/copy_of_tamago/kosodatekennminundo_r2_bosyu.html">
   <title> 【子育て支援課】令和２年度若者が考える「やまがた暮らし」アイディア提案事業業務委託に係る企画提案の募集（提出期限：5月14日） </title>
