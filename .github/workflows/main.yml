@@ -2,8 +2,8 @@ name: Upload to S3
 
 on:
   schedule:
-    # 4時間置きに実行
-    - cron: '0 */4 * * *'
+    # 12時から20時のうちに1時間おきに実行
+    - cron: '0 12-20 * * *'
 
 jobs:
   deploy:
