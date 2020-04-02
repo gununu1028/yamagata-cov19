@@ -27,6 +27,7 @@
                 let replaced_data = rare_data.replace(/href=\"\/ou\//g, 'href="/www.pref.yamagata.jp/ou/')
                 replaced_data = replaced_data.replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
                 replaced_data = replaced_data.replace(/color=\"#0066cc\"/g, '')
+                replaced_data = replaced_data.replace(/左に同じ/g, '上に同じ')
                 this.test = replaced_data
             })
             axios({
@@ -49,5 +50,38 @@
 
     table
         width 100% !important
+
+    #parent-fieldname-text > div:nth-child(31) table,
+    #parent-fieldname-text > p:nth-child(43) + table
+        border 0
+
+        tr
+            border-left 1px solid #dfe2e5
+            border-right 1px solid #dfe2e5
+            border-top 1px solid #dfe2e5
+
+        td
+            border 0
+            display block
+            text-align left !important
+
+
+    // 「新型コロナ受診相談センター」の役割と連絡先
+    #parent-fieldname-text > div:nth-child(31) table
+        th
+            display none
+
+        td:nth-of-type(1):before
+            content "居住地："
+
+        td:nth-of-type(1):before
+            content "居住地："
+
+        td:nth-of-type(2):before
+            content "担当："
+
+        td:nth-of-type(3):before
+            content "電話（平日の日中）："
+
 
 </style>
