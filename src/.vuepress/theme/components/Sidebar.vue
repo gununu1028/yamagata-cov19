@@ -1,14 +1,18 @@
 <template>
     <aside class="sidebar">
-        <NavLinks/>
-        
-        <slot name="top"/>
-
-        <SidebarLinks
-                :depth="0"
-                :items="items"
-        />
-        <slot name="bottom"/>
+        <ul class="sidebar-links">
+            <li><a href="#kensa" class="sidebar-link">山形県の新型コロナウイルス感染症の状況</a></li>
+            <li><a href="#soudan" class="sidebar-link">新型コロナウイルスの相談窓口</a></li>
+            <li><a href="#gaiyou" class="sidebar-link">新型コロナウイルス感染症について</a></li>
+            <li><a href="#kyoiku" class="sidebar-link">教育関係について</a></li>
+            <li><a href="#kosodate" class="sidebar-link">子育て関係について</a></li>
+            <li><a href="#kigyo" class="sidebar-link">企業関係について</a></li>
+            <li><a href="#norinsuisan" class="sidebar-link">農林水産関係について</a></li>
+            <li><a href="#shohi" class="sidebar-link">消費生活関係について</a></li>
+            <li><a href="#event" class="sidebar-link">イベント等の中止・延期について</a></li>
+            <li><a href="#shisetsu" class="sidebar-link">県施設の対応について</a></li>
+            <li><a href="#taisakuhonbu" class="sidebar-link">新型コロナウイルス感染症対策本部等の会議開催状況について</a></li>
+        </ul>
     </aside>
 </template>
 
@@ -26,6 +30,12 @@
 </script>
 
 <style lang="stylus">
+    a.sidebar-link
+        color #3eaf7c
+
+        &:hover
+            color #333
+
     .sidebar
         ul
             padding 0

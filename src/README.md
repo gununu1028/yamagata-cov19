@@ -1,5 +1,6 @@
 ---
 
+sidebar: auto
 navbar: false
 
 ---
