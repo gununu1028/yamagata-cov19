@@ -1,5 +1,11 @@
 <template>
     <div id="component_root">
+        <p v-if="updated_at">
+            {{ updated_at }} に、山形県ウェブサイトから情報を取得しています。
+        </p>
+        <p v-else>
+            2020年4月4日土曜日22時00分 に、山形県ウェブサイトから情報を取得しています。
+        </p>
         <div v-html="test"></div>
     </div>
 </template>
@@ -11,7 +17,8 @@
         name: "test",
         data() {
             return {
-                test: ''
+                test: '',
+                updated_at: null
             }
         },
         mounted() {
@@ -24,6 +31,12 @@
                 replaced_data = replaced_data.replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
                 replaced_data = replaced_data.replace(/color=\"#0066cc\"/g, '')
                 this.test = replaced_data
+            })
+            axios({
+                method: 'GET',
+                url: '/updated_at.txt'
+            }).then((response) => {
+                this.updated_at = response.data
             })
         }
     }
