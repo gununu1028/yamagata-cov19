@@ -15,6 +15,9 @@
   <items>
     <rdf:Seq>
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html"/>
     
     
@@ -101,12 +104,15 @@
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110009/koyotaisakutantou/shogaishakoyo-yuryo.html"/>
     
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110002/kagaku-gijutsu/koudojinzai2020.html"/>
-    
     </rdf:Seq>
   </items>
 </channel>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html">
+  <title>【環境企画課】「令和２年度若者向けSDGs等環境学習会開催支援業務委託」に係る企画提案募集について</title>
+  <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html</link>
+  <description></description>
+  <dc:date>2020-04-02T20:29:13+09:00</dc:date>
+</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html">
   <title>やまがたの農山漁村づくり情報マガジン「農楽里（ｎｏｒａｒｉ）」</title>
   <link>http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html</link>
@@ -135,7 +141,7 @@
   <title>「学生・UIJターン庄内就職説明会」企業PRシートを掲載しました！</title>
   <link>http://www.pref.yamagata.jp/ou/sogoshicho/shonai/337041/2020setsumei/2020setsumei.html</link>
   <description></description>
-  <dc:date>2020-04-02T11:59:05+09:00</dc:date>
+  <dc:date>2020-04-03T16:08:03+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110010/jibasanR2.html">
   <title>地場産業等振興事業費補助金に係る事業計画の募集について【受付期間：令和2年4月20日まで】</title>
@@ -280,12 +286,6 @@
   <link>http://www.pref.yamagata.jp/ou/shokokanko/110009/koyotaisakutantou/shogaishakoyo-yuryo.html</link>
   <description></description>
   <dc:date>2020-03-23T13:03:24+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110002/kagaku-gijutsu/koudojinzai2020.html">
-  <title>【工業戦略技術振興課】令和2年度山形県高度人材確保支援事業費補助金の募集について</title>
-  <link>http://www.pref.yamagata.jp/ou/shokokanko/110002/kagaku-gijutsu/koudojinzai2020.html</link>
-  <description></description>
-  <dc:date>2020-03-13T16:02:53+09:00</dc:date>
 </item>
 
 
