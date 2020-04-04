@@ -38,66 +38,7 @@
     a[name]
         color black
 
-
-    #parent-fieldname-text > div:nth-child(n+30):nth-child(-n+40) table,
-    #parent-fieldname-text > p:nth-child(n+40):nth-child(-n+50) + table,
-    border
-        0
-
-        tr
-            border-left 1px solid #dfe2e5
-            border-right 1px solid #dfe2e5
-            border-top 1px solid #dfe2e5
-
-        td
-            border 0
-            display block
-            text-align left !important
-
-
-    // 「新型コロナ受診相談センター」の役割と連絡先
-    #parent-fieldname-text > div:nth-child(n+30):nth-child(-n+40) table
-        th
-            display none
-
-        td:nth-of-type(1):before
-            content "居住地："
-
-        td:nth-of-type(1):before
-            content "居住地："
-
-        td:nth-of-type(2):before
-            content "担当："
-
-        td:nth-of-type(3):before
-            content "電話（平日の日中）："
-
-        td:nth-of-type(4):before
-            content "電話（休日や時間外）："
-
-        tr:last-of-type
-            border-top 0
-            border-bottom 1px solid #dfe2e5
-            background-color white
-
-            td:before
-                content "電話（休日や時間外）："
-
-    // 総合的な新型コロナ対策に関するご相談（県庁健康福祉企画課）
-    #parent-fieldname-text > p:nth-child(n+40):nth-child(-n+50) + table
-        th
-            display none
-
-        tr
-            border 1px solid #dfe2e5
-
-        td:nth-of-type(1):before
-            content "担当："
-
-        td:nth-of-type(2):before
-            content "電話（平日の日中）："
-
-        td:nth-of-type(3):before
-            content "電話（休日や時間外）："
+    table
+        width 100% !important
 
 </style>
