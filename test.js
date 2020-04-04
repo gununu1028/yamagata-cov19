@@ -27,6 +27,10 @@ async function getHtml(page, url) {
             type: "string"
         });
         save(utf8Test, "src/.vuepress/public/test.html");
+        const d = new Date();
+        const week_text = '日月火水木金土'[new Date().getDay()];
+        const text = Buffer.from(`${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日${week_text}曜日${d.getHours()}時${d.getMinutes()}分`);
+        save(text, "src/.vuepress/public/updated_at.txt");
     } catch (e) {
         console.error(e);
     }
