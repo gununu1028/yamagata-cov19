@@ -16,17 +16,12 @@ async function getHtml(page, url) {
             'http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html'
         );
         browser.close();
-        const sjisText = encoding.convert(gettedBody, {
-            to: "SJIS",
+        const utf8Text = encoding.convert(gettedBody, {
+            to: "UTF8",
             from: "UNICODE",
             type: "string"
         });
-        const utf8Test = encoding.convert(sjisText, {
-            to: "UTF8",
-            from: "SJIS",
-            type: "string"
-        });
-        save(utf8Test, "src/.vuepress/public/test.html");
+        save(utf8Text, "src/.vuepress/public/test.html");
         const d = new Date();
         const week_text = '日月火水木金土'[new Date().getDay()];
         const text = Buffer.from(`${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日${week_text}曜日${d.getHours()}時${d.getMinutes()}分`);
