@@ -3,9 +3,6 @@
         <p v-if="updated_at">
             {{ updated_at }} に、山形県ウェブサイトから情報を取得しています。
         </p>
-        <p v-else>
-            2020年4月4日土曜日22時00分 に、山形県ウェブサイトから情報を取得しています。
-        </p>
         <div v-html="test"></div>
     </div>
 </template>
