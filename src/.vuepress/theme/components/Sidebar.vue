@@ -30,8 +30,11 @@
 </script>
 
 <style lang="stylus">
+    .sidebar
+        background-color #f6f8fa
+
     a.sidebar-link
-        color #3eaf7c
+        color #209060
 
         &:hover
             color #333
