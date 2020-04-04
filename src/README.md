@@ -1,7 +1,7 @@
 ---
 
 sidebar: auto
-navbar: false
+navbar: true
 
 ---
 
