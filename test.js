@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer");
 const save = require("save-file");
 const encoding = require("encoding-japanese");
+const moment = require("moment");
 
 async function getHtml(page, url) {
     await page.goto(url);
@@ -22,9 +23,10 @@ async function getHtml(page, url) {
             type: "string"
         });
         save(utf8Text, "src/.vuepress/public/test.html");
-        const d = new Date();
+
+        let d = moment.utc().add(9, 'hours');
         const week_text = '日月火水木金土'[new Date().getDay()];
-        const text = Buffer.from(`${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日${week_text}曜日${d.getHours()}時${d.getMinutes()}分`);
+        const text = Buffer.from(d.format("YYYY年M月D日H時m分"));
         save(text, "src/.vuepress/public/updated_at.txt");
     } catch (e) {
         console.error(e);
