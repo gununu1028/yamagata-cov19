@@ -12,7 +12,7 @@ module.exports = {
         [
             '@vuepress/google-analytics',
             {
-                'ga': process.env.GOOGLE_ANALYTICS_ID || ''
+                'ga': process.env.GOOGLE_ANALYTICS_ID
             }
         ]
     ]
