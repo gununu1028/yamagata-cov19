@@ -18,6 +18,9 @@
       <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"/>
     
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020071/shokuhin/05/05-02-04.html"/>
     
     
@@ -31,9 +34,6 @@
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kanko/020075/soubun/yamaginkenmin.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html"/>
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/4sha.html"/>
@@ -111,7 +111,13 @@
   <title>新型コロナウイルス感染症に関連するポータルサイト</title>
   <link>http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html</link>
   <description></description>
-  <dc:date>2020-04-04T15:14:48+09:00</dc:date>
+  <dc:date>2020-04-06T20:21:19+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html">
+  <title>県職員の採用</title>
+  <link>http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html</link>
+  <description></description>
+  <dc:date>2020-04-06T12:31:34+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/bosai/020071/shokuhin/05/05-02-04.html">
   <title>有毒な山野草にご注意を</title>
@@ -142,12 +148,6 @@
   <link>http://www.pref.yamagata.jp/ou/kanko/020075/soubun/yamaginkenmin.html</link>
   <description></description>
   <dc:date>2020-03-27T21:56:45+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html">
-  <title>県職員の採用</title>
-  <link>http://www.pref.yamagata.jp/ou/930001/saiyosikentop.html</link>
-  <description></description>
-  <dc:date>2020-03-24T11:38:54+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/bosai/021006/tyuuikanki/4sha.html">
   <title>最初に1万円程度の情報商材を消費者に購入させ、その後に執ような電話勧誘により著しく高額な情報商材を購入させる事業者4社に関する注意喚起が消費者庁から出されました</title>
