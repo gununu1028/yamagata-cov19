@@ -41,18 +41,7 @@
 </script>
 
 <style lang="stylus">
-    // 調整用
-    .invisible, #header, .pankuzu, .skiptranslate, #footer, #toiawase, .pagetop, #right-side
-        display none
-
-    a[name]
-        color black
-
-    table
-        width 100% !important
-
-    // 「新型コロナ受診相談センター」の役割と連絡先
-    #parent-fieldname-text > table:nth-child(50)
+    set_table_style()
         border 0
 
         tr
@@ -65,6 +54,36 @@
             display block
             border 0
 
+
+    // 調整用
+    .invisible, #header, .pankuzu, .skiptranslate, #footer, #toiawase, .pagetop, #right-side
+        display none
+
+    a[name]
+        color black
+
+    table
+        width 100% !important
+
+    // 新型コロナ受診相談センター
+    #parent-fieldname-text > table:nth-child(40)
+        border 0
+
+        tr
+            border 1px solid #dfe2e5
+
+        td, th
+            display block
+            border 0
+            text-align center
+
+        th:first-child
+            display none
+
+    // 新型コロナ相談窓口
+    #parent-fieldname-text > table:nth-child(50)
+        set_table_style()
+
         tr:nth-child(5)
             border-bottom 0
 
@@ -72,25 +91,7 @@
             background-color white
             border-top 0
 
-
     // 総合的な新型コロナ対策に関するご相談（県庁健康福祉企画課）
     #parent-fieldname-text > table:nth-child(61)
-        th
-            display none
-
-        tr
-            border 1px solid #dfe2e5
-
-        td
-            display block
-
-        td:nth-of-type(1):before
-            content "担当："
-
-        td:nth-of-type(2):before
-            content "電話（平日の日中）："
-
-        td:nth-of-type(3):before
-            content "電話（休日や時間外）："
-
+        set_table_style()
 </style>
