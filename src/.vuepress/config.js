@@ -7,5 +7,13 @@ module.exports = {
         "/": {
             lang: "ja"
         }
-    }
+    },
+    plugins: [
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': process.env.GOOGLE_ANALYTICS_ID || ''
+            }
+        ]
+    ]
 };

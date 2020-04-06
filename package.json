@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.4.0",
     "vuepress": "^1.4.0"
   },
   "scripts": {
