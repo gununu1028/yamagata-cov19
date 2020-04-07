@@ -15,6 +15,15 @@
   <items>
     <rdf:Seq>
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/about_kuma/kouraku_kuma_tyuui.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020080/from_kochibou/R2syunnkikasaiyobou/kasaiyobou-haru.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090002/jigyousido/shoninshakenshu.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html"/>
     
     
@@ -95,18 +104,27 @@
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html"/>
     
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/tsunamisaigaikeikaikuiki_shitei.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/copy_of_tamago/kosodatekennminundo_r2_bosyu.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020026/advertisement/banner/bannerzuiji.html"/>
-    
     </rdf:Seq>
   </items>
 </channel>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/about_kuma/kouraku_kuma_tyuui.html">
+  <title>行楽シーズンにおける山でのクマに対する注意について</title>
+  <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/about_kuma/kouraku_kuma_tyuui.html</link>
+  <description></description>
+  <dc:date>2020-04-07T20:47:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/020080/from_kochibou/R2syunnkikasaiyobou/kasaiyobou-haru.html">
+  <title>令和2年春季火災予防運動</title>
+  <link>http://www.pref.yamagata.jp/ou/bosai/020080/from_kochibou/R2syunnkikasaiyobou/kasaiyobou-haru.html</link>
+  <description></description>
+  <dc:date>2020-04-07T15:44:58+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/090002/jigyousido/shoninshakenshu.html">
+  <title>【山形県長寿社会政策課】令和２年度山形県介護職員初任者研修受講支援事業について</title>
+  <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090002/jigyousido/shoninshakenshu.html</link>
+  <description></description>
+  <dc:date>2020-04-06T20:57:10+09:00</dc:date>
+</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html">
   <title>新型コロナウイルス感染症に係る県立学校の対応について（令和2年4月5日更新）</title>
   <link>http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html</link>
@@ -123,7 +141,7 @@
   <title>【環境企画課】「令和２年度若者向けSDGs等環境学習会開催支援業務委託」に係る企画提案募集について</title>
   <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html</link>
   <description></description>
-  <dc:date>2020-04-02T20:29:13+09:00</dc:date>
+  <dc:date>2020-04-07T19:45:47+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/norinsuisan/140017/norari.html">
   <title>やまがたの農山漁村づくり情報マガジン「農楽里（ｎｏｒａｒｉ）」</title>
@@ -268,24 +286,6 @@
   <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html</link>
   <description></description>
   <dc:date>2020-03-24T18:39:33+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/tsunamisaigaikeikaikuiki_shitei.html">
-  <title>【防災危機管理課】津波災害警戒区域の指定について</title>
-  <link>http://www.pref.yamagata.jp/ou/bosai/020072/kochibou/tsunamisaigaikeikaikuiki_shitei.html</link>
-  <description></description>
-  <dc:date>2020-03-18T16:13:41+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/copy_of_tamago/kosodatekennminundo_r2_bosyu.html">
-  <title> 【子育て支援課】令和２年度若者が考える「やまがた暮らし」アイディア提案事業業務委託に係る企画提案の募集（提出期限：5月14日） </title>
-  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/copy_of_tamago/kosodatekennminundo_r2_bosyu.html</link>
-  <description></description>
-  <dc:date>2020-03-23T10:35:52+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020026/advertisement/banner/bannerzuiji.html">
-  <title>【広報広聴推進課】山形県ホームページへのバナー広告掲載（令和2年度）の募集【随時】</title>
-  <link>http://www.pref.yamagata.jp/ou/somu/020026/advertisement/banner/bannerzuiji.html</link>
-  <description></description>
-  <dc:date>2020-03-23T13:38:51+09:00</dc:date>
 </item>
 
 
