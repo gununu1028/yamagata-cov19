@@ -58,8 +58,11 @@
     .invisible, #header, .pankuzu, .skiptranslate, #footer, #toiawase, .pagetop, #right-side
         display none
 
+    h1
+        margin-top 4rem
+
     h3
-        margin-top 8rem
+        margin-top 4rem
 
     a[name]
         color black
