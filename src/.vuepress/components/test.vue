@@ -27,7 +27,7 @@
                 let replaced_data = rare_data.replace(/href=\"\/ou\//g, 'href="/www.pref.yamagata.jp/ou/')
                 replaced_data = replaced_data.replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
                 replaced_data = replaced_data.replace(/color=\"#0066cc\"/g, '')
-                replaced_data = replaced_data.replace(/左に同じ/g, '上に同じ')
+                replaced_data = replaced_data.replace(/<p>&nbsp;<\/p>/g, '')
                 this.test = replaced_data
             })
             axios({
