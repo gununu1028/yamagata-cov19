@@ -54,10 +54,12 @@
             display block
             border 0
 
-
     // 調整用
     .invisible, #header, .pankuzu, .skiptranslate, #footer, #toiawase, .pagetop, #right-side
         display none
+
+    h3
+        margin-top 8rem
 
     a[name]
         color black
