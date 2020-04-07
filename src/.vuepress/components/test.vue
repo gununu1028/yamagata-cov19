@@ -32,7 +32,12 @@
                 replaced_data = replaced_data.replace(/<font color="#000000">（<\/font>/g, '')
                 replaced_data = replaced_data.replace(/<font color="#000000">）<\/font>/g, '')
                 replaced_data = replaced_data.replace(/（<a href="http:\/\/kaiken.pref.yamagata.jp\/data\/asx\/20200404kenfuku.asx"><\/a>）/g, '')
+                replaced_data = replaced_data.replace(/となる新型コロナウイルスの感染者が確認されました。/g,  '')
+                replaced_data = replaced_data.replace(/日、本県/g, '日：')
                 this.test = replaced_data
+                // this.$nextTick(function () {
+                //     let first_table = document.querySelector('table')
+                // })
             })
             axios({
                 method: 'GET',
