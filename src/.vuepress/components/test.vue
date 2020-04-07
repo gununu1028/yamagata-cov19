@@ -28,6 +28,10 @@
                 replaced_data = replaced_data.replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
                 replaced_data = replaced_data.replace(/color=\"#0066cc\"/g, '')
                 replaced_data = replaced_data.replace(/<p>&nbsp;<\/p>/g, '')
+                replaced_data = replaced_data.replace(/会見の動画はこちら/g, '')
+                replaced_data = replaced_data.replace(/<font color="#000000">（<\/font>/g, '')
+                replaced_data = replaced_data.replace(/<font color="#000000">）<\/font>/g, '')
+                replaced_data = replaced_data.replace(/（<a href="http:\/\/kaiken.pref.yamagata.jp\/data\/asx\/20200404kenfuku.asx"><\/a>）/g, '')
                 this.test = replaced_data
             })
             axios({
