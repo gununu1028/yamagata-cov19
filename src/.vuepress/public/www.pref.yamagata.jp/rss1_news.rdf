@@ -15,6 +15,9 @@
   <items>
     <rdf:Seq>
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/053001/support/shiryou.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/about_kuma/kouraku_kuma_tyuui.html"/>
     
     
@@ -69,6 +72,9 @@
       <rdf:li resource="http://www.pref.yamagata.jp/ou/sogoshicho/shonai/337074/R2_musyoteikyo.html"/>
     
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110001/sangyovision/sangyovision.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/096003/hoikushi-boshu.html"/>
     
     
@@ -98,15 +104,15 @@
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010003/publicfolder200904227187233850/seinennkokusaikoryujigyou/R2kokusai_seinenbosyuu.html"/>
     
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110013/keieisien/sogyo-ouen/copy_of_work_of_copy2_of_sougyo-ouen.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html"/>
-    
     </rdf:Seq>
   </items>
 </channel>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/053001/support/shiryou.html">
+  <title>環境学習に役立つ資料を集めました！</title>
+  <link>http://www.pref.yamagata.jp/ou/kankyoenergy/053001/support/shiryou.html</link>
+  <description></description>
+  <dc:date>2020-04-08T19:02:59+09:00</dc:date>
+</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/about_kuma/kouraku_kuma_tyuui.html">
   <title>行楽シーズンにおける山でのクマに対する注意について</title>
   <link>http://www.pref.yamagata.jp/ou/kankyoenergy/050011/sizenkankyo/about_kuma/kouraku_kuma_tyuui.html</link>
@@ -159,7 +165,7 @@
   <title>令和2年度山形県医師修学資金 貸与制度のご案内について</title>
   <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/shugakushikin/shugaku_shikin.html</link>
   <description></description>
-  <dc:date>2020-04-02T14:44:49+09:00</dc:date>
+  <dc:date>2020-04-08T19:18:20+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/sogoshicho/shonai/337041/2020setsumei/2020setsumei.html">
   <title>「学生・UIJターン庄内就職説明会」企業PRシートを掲載しました！</title>
@@ -215,6 +221,12 @@
   <description></description>
   <dc:date>2020-03-30T13:12:42+09:00</dc:date>
 </item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110001/sangyovision/sangyovision.html">
+  <title>「山形県産業振興ビジョン」を策定しました</title>
+  <link>http://www.pref.yamagata.jp/ou/shokokanko/110001/sangyovision/sangyovision.html</link>
+  <description></description>
+  <dc:date>2020-04-08T20:03:17+09:00</dc:date>
+</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/096003/hoikushi-boshu.html">
   <title>【やまなみ学園】臨時職員の募集について</title>
   <link>http://www.pref.yamagata.jp/ou/kenkofukushi/096003/hoikushi-boshu.html</link>
@@ -243,7 +255,7 @@
   <title>令和2年度山形県看護職員修学資金貸与事業について</title>
   <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/kangosyugakushikin/kango-scholarship.html</link>
   <description></description>
-  <dc:date>2020-03-26T15:13:51+09:00</dc:date>
+  <dc:date>2020-04-08T19:24:06+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kendoseibi/180035/gyosei/myroad.html">
   <title>ふれあいの道路愛護事業「マイロードサポーター」の募集について</title>
@@ -274,18 +286,6 @@
   <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010003/publicfolder200904227187233850/seinennkokusaikoryujigyou/R2kokusai_seinenbosyuu.html</link>
   <description></description>
   <dc:date>2020-03-26T15:14:23+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110013/keieisien/sogyo-ouen/copy_of_work_of_copy2_of_sougyo-ouen.html">
-  <title>令和2年度やまがたチャレンジ創業応援事業について</title>
-  <link>http://www.pref.yamagata.jp/ou/shokokanko/110013/keieisien/sogyo-ouen/copy_of_work_of_copy2_of_sougyo-ouen.html</link>
-  <description></description>
-  <dc:date>2020-03-26T15:13:16+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html">
-  <title>山形県看護職員需給推計について</title>
-  <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/ishikakuho_top/zyukyuumitoosi.html</link>
-  <description></description>
-  <dc:date>2020-03-24T18:39:33+09:00</dc:date>
 </item>
 
 
