@@ -29,11 +29,21 @@
                 replaced_data = replaced_data.replace(/color=\"#0066cc\"/g, '')
                 replaced_data = replaced_data.replace(/<p>&nbsp;<\/p>/g, '')
                 replaced_data = replaced_data.replace(/会見の動画はこちら/g, '会見の動画')
-                replaced_data = replaced_data.replace(/となる新型コロナウイルスの感染者が確認されました。/g,  '')
+                replaced_data = replaced_data.replace(/となる新型コロナウイルスの感染者が確認されました。/g, '')
                 this.test = replaced_data
-                // this.$nextTick(function () {
-                //     let first_table = document.querySelector('table')
-                // })
+                this.$nextTick(function () {
+                    document.querySelectorAll('ul').forEach(function (element_ul) {
+                        if (element_ul.innerHTML.includes('3月6日、臨時の記者会見を行い、吉村知事から県民の皆様に対して、')) {
+                            console.log(element_ul.innerHTML)
+                            element_ul.style.display = 'none'
+                            document.querySelectorAll('h3').forEach(function (element_h3) {
+                                if (element_h3.innerHTML.includes('知事から県民の皆様へのメッセージ')) {
+                                    element_h3.style.display = 'none'
+                                }
+                            })
+                        }
+                    })
+                })
             })
             axios({
                 method: 'GET',
