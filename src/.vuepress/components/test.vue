@@ -24,13 +24,7 @@
                 url: '/test.html'
             }).then((response) => {
                 const rare_data = response.data
-                let replaced_data = rare_data.replace(/href=\"\/ou\//g, 'href="/www.pref.yamagata.jp/ou/')
-                replaced_data = replaced_data.replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
-                replaced_data = replaced_data.replace(/color=\"#0066cc\"/g, '')
-                replaced_data = replaced_data.replace(/<p>&nbsp;<\/p>/g, '')
-                replaced_data = replaced_data.replace(/会見の動画はこちら/g, '会見の動画')
-                replaced_data = replaced_data.replace(/となる新型コロナウイルスの感染者が確認されました。/g, '')
-                this.test = replaced_data
+                this.test = this.remove_unnecessary_text(rare_data)
                 this.$nextTick(function () {
                     document.querySelectorAll('#component_root div p').forEach(function (element_p) {
                         let has_navigation = element_p.innerHTML.includes('知事から県民の皆様へのメッセージ')
@@ -58,6 +52,16 @@
             }).then((response) => {
                 this.updated_at = response.data
             })
+        },
+        methods: {
+            remove_unnecessary_text(text) {
+                return text.replace(/href=\"\/ou\//g, 'href="/www.pref.yamagata.jp/ou/')
+                    .replace(/src=\"\/ou\//g, 'src="/www.pref.yamagata.jp/ou/')
+                    .replace(/color=\"#0066cc\"/g, '')
+                    .replace(/<p>&nbsp;<\/p>/g, '')
+                    .replace(/会見の動画はこちら/g, '会見の動画')
+                    .replace(/となる新型コロナウイルスの感染者が確認されました。/g, '')
+            }
         }
     }
 </script>
