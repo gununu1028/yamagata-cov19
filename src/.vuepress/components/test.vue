@@ -32,6 +32,15 @@
                 replaced_data = replaced_data.replace(/となる新型コロナウイルスの感染者が確認されました。/g, '')
                 this.test = replaced_data
                 this.$nextTick(function () {
+                    document.querySelectorAll('#component_root div p').forEach(function (element_p) {
+                        let has_navigation = element_p.innerHTML.includes('知事から県民の皆様へのメッセージ')
+                            && element_p.innerHTML.includes('新型コロナウイルス感染症の感染拡大を防止するための緊急のお願い')
+                            && element_p.innerHTML.includes('山形県の新型コロナウイルス感染症の状況')
+                        if (has_navigation) {
+                            element_p.style.display = 'none'
+                        }
+                    })
+
                     document.querySelectorAll('ul').forEach(function (element_ul) {
                         if (element_ul.innerHTML.includes('3月6日、臨時の記者会見を行い、吉村知事から県民の皆様に対して、')) {
                             console.log(element_ul.innerHTML)
