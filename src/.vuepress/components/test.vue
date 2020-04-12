@@ -40,10 +40,8 @@
                             element_p.style.display = 'none'
                         }
                     })
-
                     document.querySelectorAll('ul').forEach(function (element_ul) {
                         if (element_ul.innerHTML.includes('3月6日、臨時の記者会見を行い、吉村知事から県民の皆様に対して、')) {
-                            console.log(element_ul.innerHTML)
                             element_ul.style.display = 'none'
                             document.querySelectorAll('h3').forEach(function (element_h3) {
                                 if (element_h3.innerHTML.includes('知事から県民の皆様へのメッセージ')) {
