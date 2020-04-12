@@ -15,6 +15,33 @@
   <items>
     <rdf:Seq>
     
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/bukkasisu_top.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/geppo.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/dezainkonntenntu/kosodateanshin.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/deaikekkonnsienn/deaikekkonn.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/kosodateanshin/kosodateanshin.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/sogoshicho/murayama/301041/senteishi.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/norinsuisan/140003/enshi/enshi_seibi.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700026/kyouinnsaiyou/saiyouzyouhou.html"/>
+    
+    
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020002/syokuinnroku/H28shokuinnrokukoukoku.html"/>
+    
+    
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/053001/support/shiryou.html"/>
     
     
@@ -28,9 +55,6 @@
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700026/kyouinnsaiyou/saiyouzyouhou.html"/>
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html"/>
@@ -63,7 +87,7 @@
       <rdf:li resource="http://www.pref.yamagata.jp/ou/somu/020004/kessan/H30kessan.html"/>
     
     
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110002/monosen.html"/>
+      <rdf:li resource="http://www.pref.yamagata.jp/ou/shokokanko/110002/kikakushinko/monosen.html"/>
     
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/copy_of_jinkm.html"/>
@@ -80,33 +104,63 @@
     
       <rdf:li resource="http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-shisetu/sagaekougyoukaitiku.html"/>
     
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/keikm.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/jinko_R1nenpo.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/kangosyugakushikin/kango-scholarship.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kendoseibi/180035/gyosei/myroad.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/dezainkonntenntu/kosodateanshin.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/deaikekkonnsienn/deaikekkonn.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/kosodateanshin/kosodateanshin.html"/>
-    
-    
-      <rdf:li resource="http://www.pref.yamagata.jp/ou/kosodatesuishin/010003/publicfolder200904227187233850/seinennkokusaikoryujigyou/R2kokusai_seinenbosyuu.html"/>
-    
     </rdf:Seq>
   </items>
 </channel>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/bukkasisu_top.html">
+  <title>山形市消費者物価指数</title>
+  <link>http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/bukkasisu_top.html</link>
+  <description></description>
+  <dc:date>2020-04-10T11:10:52+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/geppo.html">
+  <title>月報「統計やまがた」2020年3月号を発行しました</title>
+  <link>http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/geppo.html</link>
+  <description></description>
+  <dc:date>2020-04-10T11:08:19+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/dezainkonntenntu/kosodateanshin.html">
+  <title>【子育て支援課】やまがた結婚・子育てデザインコンテンツ作成事業業務委託に係る企画提案の募集（提出期限：４月24日）</title>
+  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/dezainkonntenntu/kosodateanshin.html</link>
+  <description></description>
+  <dc:date>2020-04-10T11:01:18+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/deaikekkonnsienn/deaikekkonn.html">
+  <title>【子育て支援課】出会い・結婚支援事業業務委託に係る企画提案の募集（提出期限：４月24日）</title>
+  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/deaikekkonnsienn/deaikekkonn.html</link>
+  <description></description>
+  <dc:date>2020-04-10T10:52:15+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/kosodateanshin/kosodateanshin.html">
+  <title>【子育て支援課】山形で子育て安心プロジェクト事業業務委託に係る企画提案の募集（提出期限：４月１７日）</title>
+  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/kosodateanshin/kosodateanshin.html</link>
+  <description></description>
+  <dc:date>2020-04-10T10:53:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/sogoshicho/murayama/301041/senteishi.html">
+  <title>果樹剪定枝の有効活用について</title>
+  <link>http://www.pref.yamagata.jp/ou/sogoshicho/murayama/301041/senteishi.html</link>
+  <description></description>
+  <dc:date>2020-04-09T19:11:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/norinsuisan/140003/enshi/enshi_seibi.html">
+  <title>園芸農業研究所の施設整備状況</title>
+  <link>http://www.pref.yamagata.jp/ou/norinsuisan/140003/enshi/enshi_seibi.html</link>
+  <description></description>
+  <dc:date>2020-04-09T19:01:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/kyoiku/700026/kyouinnsaiyou/saiyouzyouhou.html">
+  <title>山形県公立学校教員の採用について</title>
+  <link>http://www.pref.yamagata.jp/ou/kyoiku/700026/kyouinnsaiyou/saiyouzyouhou.html</link>
+  <description></description>
+  <dc:date>2020-04-09T15:12:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.pref.yamagata.jp/ou/somu/020002/syokuinnroku/H28shokuinnrokukoukoku.html">
+  <title>【人事課】『山形県職員録』への広告募集（募集期間：令和2年4月24日午後5時まで）</title>
+  <link>http://www.pref.yamagata.jp/ou/somu/020002/syokuinnroku/H28shokuinnrokukoukoku.html</link>
+  <description></description>
+  <dc:date>2020-04-07T19:06:59+09:00</dc:date>
+</item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/053001/support/shiryou.html">
   <title>環境学習に役立つ資料を集めました！</title>
   <link>http://www.pref.yamagata.jp/ou/kankyoenergy/053001/support/shiryou.html</link>
@@ -136,12 +190,6 @@
   <link>http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-kikakuyosan/kyuukoutaiou/yamagata202002.html</link>
   <description></description>
   <dc:date>2020-04-06T12:29:01+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kyoiku/700026/kyouinnsaiyou/saiyouzyouhou.html">
-  <title>山形県公立学校教員の採用について</title>
-  <link>http://www.pref.yamagata.jp/ou/kyoiku/700026/kyouinnsaiyou/saiyouzyouhou.html</link>
-  <description></description>
-  <dc:date>2020-04-06T09:51:22+09:00</dc:date>
 </item>
 <item rdf:about="http://www.pref.yamagata.jp/ou/kankyoenergy/050015/syou-energy/kankyogakushukai.html">
   <title>【環境企画課】「令和２年度若者向けSDGs等環境学習会開催支援業務委託」に係る企画提案募集について</title>
@@ -203,9 +251,9 @@
   <description></description>
   <dc:date>2020-03-31T12:22:07+09:00</dc:date>
 </item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110002/monosen.html">
+<item rdf:about="http://www.pref.yamagata.jp/ou/shokokanko/110002/kikakushinko/monosen.html">
   <title>「山形県ものづくり産業振興戦略」を策定しました</title>
-  <link>http://www.pref.yamagata.jp/ou/shokokanko/110002/monosen.html</link>
+  <link>http://www.pref.yamagata.jp/ou/shokokanko/110002/kikakushinko/monosen.html</link>
   <description></description>
   <dc:date>2020-03-31T12:34:17+09:00</dc:date>
 </item>
@@ -238,54 +286,6 @@
   <link>http://www.pref.yamagata.jp/ou/kyoiku/700001/somuka-top-shisetu/sagaekougyoukaitiku.html</link>
   <description></description>
   <dc:date>2020-03-30T13:13:31+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/keikm.html">
-  <title>経済動向月例報告</title>
-  <link>http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/keikm.html</link>
-  <description></description>
-  <dc:date>2020-03-30T13:56:00+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/jinko_R1nenpo.html">
-  <title>令和元年 山形県の人口と世帯数について</title>
-  <link>http://www.pref.yamagata.jp/ou/kikakushinko/020052/tokei/jinko_R1nenpo.html</link>
-  <description></description>
-  <dc:date>2020-03-30T10:10:58+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/kangosyugakushikin/kango-scholarship.html">
-  <title>令和2年度山形県看護職員修学資金貸与事業について</title>
-  <link>http://www.pref.yamagata.jp/ou/kenkofukushi/090013/chiikiiryoshienshitsu/kangosyugakushikin/kango-scholarship.html</link>
-  <description></description>
-  <dc:date>2020-04-08T19:24:06+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kendoseibi/180035/gyosei/myroad.html">
-  <title>ふれあいの道路愛護事業「マイロードサポーター」の募集について</title>
-  <link>http://www.pref.yamagata.jp/ou/kendoseibi/180035/gyosei/myroad.html</link>
-  <description></description>
-  <dc:date>2020-03-31T12:09:18+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/dezainkonntenntu/kosodateanshin.html">
-  <title>【子育て支援課】やまがた結婚・子育てデザインコンテンツ作成事業業務委託に係る企画提案の募集（提出期限：４月24日）</title>
-  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/dezainkonntenntu/kosodateanshin.html</link>
-  <description></description>
-  <dc:date>2020-03-27T11:22:17+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/deaikekkonnsienn/deaikekkonn.html">
-  <title>【子育て支援課】出会い・結婚支援事業業務委託に係る企画提案の募集（提出期限：４月24日）</title>
-  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/deaikekkonnsienn/deaikekkonn.html</link>
-  <description></description>
-  <dc:date>2020-03-27T11:22:55+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/kosodateanshin/kosodateanshin.html">
-  <title>【子育て支援課】山形で子育て安心プロジェクト事業業務委託に係る企画提案の募集（提出期限：４月１７日）</title>
-  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010001/kosodateanshin/kosodateanshin.html</link>
-  <description></description>
-  <dc:date>2020-03-27T11:21:36+09:00</dc:date>
-</item>
-<item rdf:about="http://www.pref.yamagata.jp/ou/kosodatesuishin/010003/publicfolder200904227187233850/seinennkokusaikoryujigyou/R2kokusai_seinenbosyuu.html">
-  <title>令和2年度 内閣府青年国際交流事業 参加青年募集（応募期限：令和2年4月３日（金））</title>
-  <link>http://www.pref.yamagata.jp/ou/kosodatesuishin/010003/publicfolder200904227187233850/seinennkokusaikoryujigyou/R2kokusai_seinenbosyuu.html</link>
-  <description></description>
-  <dc:date>2020-03-26T15:14:23+09:00</dc:date>
 </item>
 
 
